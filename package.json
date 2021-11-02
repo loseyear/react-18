@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios-extra": "^0.0.6",
+    "react": "^18.0.0-alpha-5cccacd13-20211101",
+    "react-dom": "^18.0.0-alpha-5cccacd13-20211101",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "vite": "^2.6.4"
+  },
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
