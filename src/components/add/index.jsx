@@ -2,9 +2,10 @@ import React from 'react'
 
 import { useDispatch, useSelector } from '../../hooks/useRedux'
 
-function Test() {
+export default function Test() {
   const dispatch = useDispatch()
-  const { countReducer1 } = useSelector(state => state)
+  const { countReducer1 } = useSelector()
+
   return (
     <div>
       <div>{countReducer1.count}</div>
@@ -12,4 +13,3 @@ function Test() {
     </div>
   )
 }
-export default Test

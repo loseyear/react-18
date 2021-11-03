@@ -1,7 +1,3 @@
-export const countInit1 = {
-  count: 1
-}
-
 export const countReducer1 = (
   state = {
     count: 1,
